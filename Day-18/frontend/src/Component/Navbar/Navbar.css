@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis&display=swap');
+.profile_container{
+    background-color: rgba(13, 65, 65, 0.74);
+    width: 400px;
+    height: 900px;
+    z-index: 99;
+    position: fixed;
+    right: 0%;
+    backdrop-filter: blur(3px);
+    
+}
+.profile_box{
+    margin: 10px;
+    width: 390px;
+    height: 400px;
+}
+.navbar-bigbox{
+    border-bottom: 1px solid black;
+    height: 100px;
+}
+.logopic{
+    height: 60px;
+    width: 60px;
+}
+.profile_img{
+    width: 200px;
+    height: 200px;
+    align-items: center;
+    position: fixed;
+    margin-left: 90px;
+    margin-top: 20px;
+    
+}
+.profile_detail{
+    display: block;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 50px;
+    position: fixed ;
+    font-size: 25px ;
+    top: 36%;
+    font-family: 'Dosis', sans-serif;
+}
+.profile_name{
+    margin-bottom: 20px;
+}
+.logout{
+    position: fixed;
+    top: 60%;
+    right: 50%;
+}
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+/* base styles */
+* {
+  margin: 0;
+ 
+}
+.add_container{
+  width: 100%;
+  height: 100%;
+  z-index: 99;
+  position: fixed;
+  right: 0%;
+  backdrop-filter: blur(3px);
+  /* background-color: transparent; */
+
+}
+
+/* create new blog form */
+.create {
+  background-color: #3333338f;
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: center;
+  /* background-color: #f1356d; */
+  width: 500px;
+  height: 500px;
+  z-index: -1;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.create label {
+  text-align: left;
+  display: block;
+  color: #fff;
+  padding: 2px;
+  font-family: "Quicksand";
+}
+.create input,textarea,select{
+  background-color: #3333338f;
+  color: aliceblue;
+  font-family: "Quicksand";
+}
+.create h2 {
+  font-size: 20px;
+  color: #eedfe4;
+  margin-bottom: 30px;
+  font-family: "Quicksand";
+}
+.create input, .create textarea, .create select {
+  width: 100%;
+  padding: 6px 10px;
+  margin: 10px 0;
+  border: 1px solid #252020;
+  box-sizing: border-box;
+  display: block;
+  font-family: "Quicksand";
+}
+.create button {
+  background: #f1356d;
+  color: #fff;
+  border: 0;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-family: "Quicksand";
+} 
+/* wordLimit */
+.errorLimit{
+  position: absolute;
+  color: red;
+  top: 1500px;
+  z-index: 99;
+  font-family: "Quicksand";
+}
+
+
