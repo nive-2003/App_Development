@@ -1,0 +1,265 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+.footer_Container{
+  width: 100%;
+  height: 330px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  background-color: #0c0b0b;
+}
+/* .equalDivision1 span{
+    font-size: 20px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    color: whitesmoke;
+} */
+.equalDivision1{
+    background-color: #f1f1f1;
+    margin: 10px;
+    padding: 20px;
+    font-size: 20px;
+    width: 505px;
+    height: 100%;
+    background-color: #0c0b0bce;
+    color: whitesmoke;
+}
+.equalDivision1 p{
+    font-size: 15px;
+    position: relative;
+    top: 8px;
+    font-family: "Quicksand";
+}
+.equalDivision1 hr{
+    background: #0ae4f8;
+    height: 3px;
+    border: none;
+    width:100px;
+}
+.equalDivision2{
+    background-color: #0c0b0bce;
+    color: whitesmoke;
+    margin: 10px;
+    padding: 20px;
+    font-size: 20px;
+    width: 505px;
+    height: 100%;
+    font-family: "Quicksand";
+}
+.title{
+    padding: 20px;
+    font-size: 20px;
+}
+
+.equalDivision2 hr{
+    background: #0ae4f8;
+    height: 3px;
+    border: none;
+    width:70px;
+}
+.locationIcon{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    position: absolute;
+}
+
+.locationIcon p3{
+  font-size: 13px;
+  position: absolute;
+  left: 50px;
+  font-family: "Quicksand";
+  top: 20px;
+  z-index: 99;
+}
+.mailIcon{
+    position: absolute;
+    top: 130px;
+    font-size: 13px;
+}
+.mailIcon p2{
+    position: absolute;
+    left: 35px;
+    top: 0px;
+    font-size: 13px;
+    font-family: "Quicksand";
+}
+.phoneIcon{
+    position: absolute;
+    top: 160px;
+}
+.phoneIcon p3{
+    position: absolute;
+    top: 160px;
+    font-size: 13px;
+}
+.phoneIcon p4{
+    position: absolute;
+    left: 35px;
+    top: 5px;
+    font-size: 13px;
+    font-family: "Quicksand";
+}
+.socialMe{
+    position: absolute;
+    left: 10px;
+    top: 180px;
+    font-size: 16px;
+    font-weight: 800;
+   color: #fff;
+}
+.socialMe p5{
+    position: absolute;
+    left: 0px;
+    top: 50px;
+    font-size: 16px;
+    font-weight: 800;
+   color: #fff;
+}
+
+.socialIconsFooter{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px;
+    padding: 0px;
+    font-size: 20px;
+    z-index: 99;
+}
+.socialIconsFooter .icons00{
+    width: 30px;
+    /* background-color: rgba(184, 178, 178, 0.786); */
+    border-radius: 50%;
+    position: relative;
+    left: 130px;
+    top: 20px;
+    cursor: pointer;
+    /* background-color: #0ae4f8; */
+    z-index: 99;
+}
+.equalDivision3{
+    background-color: #0c0b0bce;
+    color: whitesmoke;
+    margin: 10px;
+    padding: 20px;
+    font-size: 20px;
+    width: 505px;
+    height: 100%;
+    position: relative;
+    transform-style: preserve-3d;
+    transition: all 0.5s ease;
+}
+.equalDivision3 hr{
+    background: #0ae4f8;
+    height: 2px;
+    border: none;
+    width:60px;
+    border-radius: 50px;
+    top: 50px;
+    position: absolute;
+}
+/* front */
+.create1 {
+    /* background-color: #3333338f; */
+    text-align: center;
+    /* background-color: #f1356d; */
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    border-radius: 5px;
+    backface-visibility: hidden;
+    position: absolute;
+  }
+  .create1 button:hover{
+    transform: scale(1.08);
+  }
+  .create1 label {
+    text-align: left;
+    display: block;
+    color: #fff;
+    padding: 2px;
+    font-size: 16px;
+    font-family: "Quicksand";
+  }
+  .create1 input,textarea,select{
+    background-color: #3333338f;
+    color: aliceblue;
+    font-family: "Quicksand";
+    position: relative;
+    top: 00px;
+  }
+  .create1 h2 {
+    font-size: 20px;
+    color: #eedfe4;
+    margin-bottom: 30px;
+    font-family: "Quicksand";
+  }
+  .create1 input, .create1 textarea, .create1 select {
+    width: 100%;
+    padding: 6px 10px;
+    margin: 10px 0;
+    border: 1px solid #252020;
+    box-sizing: border-box;
+    display: block;
+    font-family: "Quicksand";
+  }
+  .create1 button {
+    background: #f1356d;
+    color: #fff;
+    border: 0;
+    padding: 8px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-family: "Quicksand";
+  } 
+  /* for flipping */
+  
+  .backclass{
+    position: absolute;
+   padding: 20px;
+  }
+  .backclass p7{
+    font-family: "Quicksand"; 
+  }
+  .backclass button{
+    position:absolute;
+    background: #f1356d;
+    color: #fff;
+    border: 0;
+    padding: 8px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-family: "Quicksand"; 
+    top: 150px;
+    right: 190px;
+  }
+  .extra{
+    width: 100%;
+    height: 30px;
+    background-color: #0c0b0bce;
+  }
+  .privacytag button{
+    background-color: rgba(128, 128, 128, 0);
+    border-style: none;
+    cursor: pointer;
+    font-size: 16px;
+    color: white;
+  }
+  .privacytag p9{
+    position:absolute;
+    color: aliceblue;
+    right: 10px;
+  }
+  .locationIcon pre{
+    font-family: "Quicksand";
+  }
+  .faq{
+    position: relative;
+    left: 50px;
+  }
+  .tac{
+    position: relative;
+    left:100px;
+}

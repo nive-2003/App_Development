@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis&display=swap');
+.profile_container{
+    background-color: rgba(13, 65, 65, 0.74);
+    width: 400px;
+    height: 900px;
+    z-index: 100;
+    position: fixed;
+    right: 0%;
+    backdrop-filter: blur(3px);
+    
+}
+/* .sername_caption{
+  padding-right: 20px;
+} */
+.profile_box{
+    margin: 10px;
+    width: 390px;
+    height: 400px;
+}
+.navbar-bigbox{
+    border-bottom: 1px solid black;
+    height: 100px;
+    /* background-color: rgb(26, 32, 44); */
+}
+.logopic{
+    height: 60px;
+    width: 60px;
+}
+.profile_img{
+    max-width: 165px;
+    max-height: 200px;
+    left: 25%;
+    top: 6%;
+    align-items: center;
+    position: fixed;
+    /* margin-left: 90px;
+    margin-top: 20px;
+     */
+}
+.profile_detail{
+    display: block;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 50px;
+    position: fixed ;
+    font-size: 20px ;
+    top: 36%;
+    font-family: 'Dosis', sans-serif;
+}
+.profile_name{
+    margin-bottom: 20px;
+}
+.logout{
+    position: fixed;
+    top: 60%;
+    right: 50%;
+}
+.logout:hover{
+  color: #f1356d;
+  transform: scale(1.4);
+}
+.imageupload-box{
+    background-color: #f1356d;
+    position:fixed;
+    right: 5.81%;
+    top:13.4%;
+    z-index: 199;
+    width: 200px;
+    height: 200px;
+  
+}
+.img_package .editbutton {
+       font-size: 15px;
+       font-weight: bolder;
+       position: relative;
+       left: 53%;
+       top: 83%;
+       color: #f1356d;
+       width: 50px;
+}
+.img_package .editbutton:hover{
+  transform: scale(1.2);
+  color: antiquewhite;
+
+}
+.imageupload-container{
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    backdrop-filter: blur(7px);
+    z-index: 99;
+    background-color: #252020c0;
+}
+.img_package{
+    height: 300px;
+}
+.uploader__widget-base.breakpoint-md.uploader__widget-base--draggable{
+   position: relative;
+   justify-content: center;
+   align-items: center;
+}
+.uploaderbox{
+    width: 100vw;
+    height: 100vh;
+    z-index: 299px;
+
+}
+.uploaderbox button{
+    font-size: 25px;
+    position: relative ;
+    left: 30%;
+    border: 1px solid #090406;
+    border-radius: 10px;
+    background-color: rgba(2, 57, 39, 0.631);
+    width: 200px;
+}
+.savepic{
+  position: fixed;
+  z-index: 200;
+  right: 5.8%;
+  top: 47%
+}
+.savepic:hover{
+  color: #f1356d;
+  transform: scale(1.2)
+
+}
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+/* base styles */
+* {
+  margin: 0;
+ 
+}
+
+/* create new blog form */
+.create {
+  background-color: #3333338f;
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: center;
+  /* background-color: #f1356d; */
+  width: 500px;
+  height: 500px;
+  z-index: -1;
+  padding: 20px;
+  border-radius: 5px;
+  margin-top: 7%;
+}
+
+.create label {
+  text-align: left;
+  display: block;
+  color: #fff;
+  padding: 2px;
+  font-family: "Quicksand";
+}
+.create input,textarea,select{
+  background-color: #3333338f;
+  color: aliceblue;
+  font-family: "Quicksand";
+}
+.create h2 {
+  font-size: 20px;
+  color: #eedfe4;
+  margin-bottom: 30px;
+  font-family: "Quicksand";
+}
+.create input, .create textarea, .create select {
+  width: 100%;
+  padding: 6px 10px;
+  margin: 10px 0;
+  border: 1px solid #252020;
+  box-sizing: border-box;
+  display: block;
+  font-family: "Quicksand";
+}
+.create button {
+  background: #f1356d;
+  color: #fff;
+  border: 0;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-family: "Quicksand";
+} 
+/* wordLimit */
+.errorLimit{
+  position: absolute;
+  color: red;
+  top: 1500px;
+  z-index: 99;
+  font-family: "Quicksand";
+}
+.add-uploaderbox{
+  width: 90vw;
+  height: 100vh;
+}
+.addimage-container{
+  z-index: 199;
+  width: 76.57vw;
+  
+  height: 100vh;
+  position:fixed;
+  backdrop-filter: blur(8px);
+  z-index: 300;
+  background-color: #252020ca;
+  
+  
+}
+.add_container{
+  width: 400px;
+  height: 100%;
+  z-index: 599;
+  position: fixed;
+  right: 0%;
+  backdrop-filter: blur(8px);
+  
+  /* background-color: transparent; */
+
+}
+
+
