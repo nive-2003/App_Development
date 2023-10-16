@@ -1,0 +1,356 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Serif+Pro&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap");
+
+
+.main-container {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row;
+  padding: 20px;
+  min-height: 100%;
+}
+
+.categories-container {
+  position: sticky; 
+  top: 20%; 
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  width: 10%;
+}
+
+.content-container {
+  flex-grow: 1;
+  overflow-y: auto;
+  
+}
+
+.MainPage-page {
+  flex-grow: 1;
+  max-height: calc(100vh - 100px); /* Adjust as needed */
+  overflow-y: auto;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  overflow-x:hidden;
+  height: 90vh;
+  
+}
+
+.MainPage-page::-webkit-scrollbar {
+  width: 8px; /* Width of the scrollbar */
+}
+
+.MainPage-page::-webkit-scrollbar-track {
+  background: transparent; /* Track color (make it transparent) */
+}
+
+.MainPage-page::-webkit-scrollbar-thumb {
+  background-color: transparent; /* Thumb color (make it transparent) */
+  border-radius: 4px; /* Border radius of the thumb */
+}
+.liketext{
+  color: black;
+}
+
+/* MainPage Image */
+
+/* .MainPageImage-page {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 10px;
+  max-width: fit-content; 
+  overflow-x: hidden;
+  margin-right: 50px;
+  max-height: 600px;
+  padding-bottom: 10px;
+  padding-left:20px;
+  width: fit-content;
+  transition: transform 0.5s ease;  
+}
+.MainPageImage-page::-webkit-scrollbar {
+  width: 8px; 
+}
+
+.MainPageImage-page::-webkit-scrollbar-track {
+  background: transparent; 
+} 
+
+.MainPageImage-page::-webkit-scrollbar-thumb {
+  background-color: transparent;
+  border-radius: 4px;
+}
+
+.MainPage-Image-Arrow {
+  position: relative;
+  top: 0px;
+  background-color: #f0f0f0;
+  border-radius: 8px;
+  padding: 20px;
+  margin: 10px;
+  text-align: center;
+  width: 10px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.MainPage-Image-div {
+  position: relative;
+  top: 0px;
+  background-color: #f0f0f0;
+  border-radius: 8px;
+  padding: 20px;
+  margin: 10px;
+  text-align: center;
+  width: 300px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  opacity: 0.6; 
+  transform: scale(0.9);
+  transition: opacity 0.3s ease, transform 0.3s ease;
+  overflow-x: hidden;
+}
+
+.MainPage-Image-div.active {
+  opacity: 1;
+  transform: scale(1);
+}
+
+.MainPage-Image-img {
+  position: relative;
+  height: 22rem;
+  width: 18rem;
+  border-radius: 8px;
+}
+
+.MainPage_Like_Save
+{
+  margin-bottom:-30px;
+}
+
+.post_profile_section
+{
+  padding:10px 10px 10px 0px;
+  padding-right:10px;
+}
+
+.MainPage_Image_like
+{
+  position:relative;
+  top:10px;
+  left:10px;
+  height:30px;
+  width:30px;
+}
+
+.MainPage_Image_save
+{
+  position:relative ;
+  top:-20px;
+  left:13rem;
+  height:30px;
+  width:30px;
+}
+
+.MainPage-Image-caption {
+  position: relative;
+  left: 35px;
+  top: -15px;
+  color: black;
+  max-width: 20%;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+  text-align: left;
+  padding-left: 40px;
+}
+
+.MainPage-Image-profile-pic {
+  position: relative;
+  top: 25px;
+  left: -20px;
+  border-radius: 26px;
+  width: 40px;
+  height: 40px;
+  margin-left:20px;
+}
+
+.MainPage-Image-username {
+  position: relative;
+  top: 0px;
+  left: 5px;
+  color: black;
+  font-size:14px;
+  font-family: "Roboto", sans-serif;
+}
+
+.img-slider-controls {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.img-slider-control {
+  background: none;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.img-slider-control:active {
+  transform: scale(1.1);
+}
+.img-slider-control.left {
+  position:relative;
+  top: 0rem;
+  left: 34rem;
+  margin-right: 20px;
+}
+
+.img-slider-control.right {
+  position:relative;
+  top: 0rem;
+  left: 37rem;
+  margin-right: 20px;
+}
+.MainPage_Image_Title
+{
+  font-size:3rem;
+  font-family: "Roboto", sans-serif;
+  margin-bottom:2rem;
+}
+
+
+.MainPageImage-slider {
+  overflow-x: hidden;
+  white-space: nowrap;
+  padding-left: 40px;
+  max-width: 100%;
+} */
+/* MainPage Image */
+
+/* MainPage Video */
+
+.MainPageVideo-page{
+  position: relative;
+  top: 20px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-rows: repeat(auto-fit, minmax(300px, auto));
+  flex-wrap: wrap;
+  gap: 10px;
+  overflow: hidden;
+  max-width: 100%;
+  padding-bottom: 102px;
+  padding-top: 76px;
+}
+.MainPageVideo-page::-webkit-scrollbar {
+  width: 8px; /* Width of the scrollbar */
+}
+
+.MainPageVideo-page::-webkit-scrollbar-track {
+  background: transparent; /* Track color (make it transparent) */
+}
+
+.MainPageVideo-page::-webkit-scrollbar-thumb {
+  background-color: transparent; /* Thumb color (make it transparent) */
+  border-radius: 4px; /* Border radius of the thumb */
+}
+
+.MainPage-Video-div {
+  position: relative;
+  top: 0px;
+  background-color: #f0f0f0;
+  border-radius: 8px;
+  padding: 20px;
+  margin: 10px;
+  text-align: center;
+  width: 300px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.MainPage-Video-img {
+  position: relative;
+  height: 22rem;
+  width: 18rem;
+  border-radius: 8px;
+}
+
+.MainPage-Video-caption {
+  position: relative;
+  left: 35px;
+  top: -15px;
+  color: black;
+  max-width: 210px;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  font-size: 14px;
+  text-align: left;
+  padding-left: 20px;
+}
+
+.MainPage-Video-profile-pic {
+  position: relative;
+  top: 25px;
+  left: -20px;
+  border-radius: 26px;
+  width: 40px;
+  height: 40px;
+  margin-left:10px;
+}
+
+.MainPage-Video-username {
+  position: relative;
+  top: 0px;
+  left: 0px;
+  color: black;
+  font-size:14px;
+  font-family: "Roboto", sans-serif;
+}
+
+.MainPage_Video_Title
+{
+  position:relative;
+  top:0rem;
+  font-size:3rem;
+  font-family: "Roboto", sans-serif;
+}
+.MainPage_Like_Save
+{
+  margin-bottom:-30px;
+}
+
+.post_profile_section
+{
+  padding:10px 10px 10px 0px;
+  padding-right:10px;
+}
+
+.MainPage_Video_like
+{
+  position:relative;
+  top:10px;
+  left:10px;
+  height:30px;
+  width:30px;
+}
+
+.MainPage_Video_save
+{
+  position:relative ;
+  top:-20px;
+  left:13rem;
+  height:30px;
+  width:30px;
+}
+
+/* MainPage Video */
+
+.separator-line {
+  position: relative;
+  top: 6rem;
+  background-color: black;
+  height: 15px;
+  width: 100%;
+  border-radius: 10px;
+}

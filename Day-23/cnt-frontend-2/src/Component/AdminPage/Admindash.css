@@ -1,0 +1,368 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Serif+Pro&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Lato:400,700,900");
+html::-webkit-scrollbar {
+  display: none;
+}
+
+.container-admin {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row;
+  padding: 20px;
+  min-height: 100%;
+}
+
+.categories-container-admin {
+  position: sticky;
+  top: 20%;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  width: 10%;
+}
+
+.content-container-admin {
+  flex-grow: 1;
+  overflow-y: auto;
+  /* margin-left:45px;
+  margin-top:90px; */
+}
+
+.Page-page-admin {
+  flex-grow: 1;
+  max-height: calc(100vh - 100px); /* Adjust as needed */
+  overflow-y: auto;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  overflow-x: hidden;
+  height: 90vh;
+}
+
+.Page-page-admin::-webkit-scrollbar {
+  width: 8px; /* Width of the scrollbar */
+}
+
+.Page-page-admin::-webkit-scrollbar-track {
+  background: transparent; /* Track color (make it transparent) */
+}
+
+.Page-page-admin::-webkit-scrollbar-thumb {
+  background-color: transparent; /* Thumb color (make it transparent) */
+  border-radius: 4px; /* Border radius of the thumb */
+}
+
+/* Page Image */
+
+/* .PageImage-page {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 10px;
+  max-width: fit-content; 
+  overflow-x: hidden;
+  margin-right: 50px;
+  max-height: 600px;
+  padding-bottom: 10px;
+  padding-left:20px;
+  width: fit-content;
+  transition: transform 0.5s ease;  
+}
+.PageImage-page::-webkit-scrollbar {
+  width: 8px; 
+}
+
+.PageImage-page::-webkit-scrollbar-track {
+  background: transparent; 
+} 
+
+.PageImage-page::-webkit-scrollbar-thumb {
+  background-color: transparent;
+  border-radius: 4px;
+}
+
+.Page-Image-Arrow {
+  position: relative;
+  top: 0px;
+  background-color: #f0f0f0;
+  border-radius: 8px;
+  padding: 20px;
+  margin: 10px;
+  text-align: center;
+  width: 10px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.Page-Image-div {
+  position: relative;
+  top: 0px;
+  background-color: #f0f0f0;
+  border-radius: 8px;
+  padding: 20px;
+  margin: 10px;
+  text-align: center;
+  width: 300px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  opacity: 0.6; 
+  transform: scale(0.9);
+  transition: opacity 0.3s ease, transform 0.3s ease;
+  overflow-x: hidden;
+}
+
+.Page-Image-div.active {
+  opacity: 1;
+  transform: scale(1);
+}
+
+.Page-Image-img {
+  position: relative;
+  height: 22rem;
+  width: 18rem;
+  border-radius: 8px;
+}
+
+.Page_Like_Save
+{
+  margin-bottom:-30px;
+}
+
+.post_profile_section
+{
+  padding:10px 10px 10px 0px;
+  padding-right:10px;
+}
+
+.Page_Image_like
+{
+  position:relative;
+  top:10px;
+  left:10px;
+  height:30px;
+  width:30px;
+}
+
+.Page_Image_save
+{
+  position:relative ;
+  top:-20px;
+  left:13rem;
+  height:30px;
+  width:30px;
+}
+
+.Page-Image-caption {
+  position: relative;
+  left: 35px;
+  top: -15px;
+  color: black;
+  max-width: 20%;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+  text-align: left;
+  padding-left: 40px;
+}
+
+.Page-Image-profile-pic {
+  position: relative;
+  top: 25px;
+  left: -20px;
+  border-radius: 26px;
+  width: 40px;
+  height: 40px;
+  margin-left:20px;
+}
+
+.Page-Image-username {
+  position: relative;
+  top: 0px;
+  left: 5px;
+  color: black;
+  font-size:14px;
+  font-family: "Roboto", sans-serif;
+}
+
+.img-slider-controls {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.img-slider-control {
+  background: none;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.img-slider-control:active {
+  transform: scale(1.1);
+}
+.img-slider-control.left {
+  position:relative;
+  top: 0rem;
+  left: 34rem;
+  margin-right: 20px;
+}
+
+.img-slider-control.right {
+  position:relative;
+  top: 0rem;
+  left: 37rem;
+  margin-right: 20px;
+}
+.Page_Image_Title
+{
+  font-size:3rem;
+  font-family: "Roboto", sans-serif;
+  margin-bottom:2rem;
+}
+
+
+.PageImage-slider {
+  overflow-x: hidden;
+  white-space: nowrap;
+  padding-left: 40px;
+  max-width: 100%;
+} */
+/* Page Image */
+
+/* Page Video */
+
+.PageVideo-page-admin {
+  position: relative;
+  top: 18px;
+  left: 6px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-rows: repeat(auto-fit, minmax(300px, auto));
+  flex-wrap: wrap;
+  gap: 10px;
+  overflow: hidden;
+  max-width: 100%;
+  padding-bottom: 70px;
+}
+.PageVideo-page-admin::-webkit-scrollbar {
+  width: 8px; /* Width of the scrollbar */
+}
+
+.PageVideo-page-admin::-webkit-scrollbar-track {
+  background: transparent; /* Track color (make it transparent) */
+}
+
+.PageVideo-page-admin::-webkit-scrollbar-thumb {
+  background-color: transparent; /* Thumb color (make it transparent) */
+  border-radius: 4px; /* Border radius of the thumb */
+}
+
+.Page-Video-div-admin {
+  position: relative;
+  top: 0px;
+  background-color: #f0f0f0;
+  border-radius: 8px;
+  padding: 20px;
+  text-align: center;
+  width: 300px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  opacity: 0.4;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  transform: scale(0.9);
+  transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+.Page-Video-div-admin:hover {
+  opacity: 1;
+  transform: scale(1);
+}
+
+.profile_photo_admin {
+  position: relative;
+  height: 100px;
+  width: 100px;
+  top: 0px;
+  left: 80px;
+  margin-bottom: 10px;
+  border-radius: 48px;
+}
+
+.Page-Video-useremail-admin {
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: 700;
+  margin-bottom: 3px;
+  color: #ec9b3b;
+}
+
+.Page-Video-username-admin {
+  font-size: 26px;
+  color: black;
+  font-weight: 900;
+  margin-bottom: 5px;
+}
+
+.Page-Video-Delete-View {
+  position: relative;
+  color: white;
+  font-weight: 700;
+  border-radius: 14px;
+  display: flex;
+  margin-top: auto;
+  left: 5px;
+}
+
+.Page-Video-Delete-View .one-third:last-child {
+  border-right: none;
+}
+
+.delete_button_admin {
+  position: relative;
+  font-size: 20px;
+  height: 80px;
+  width: 48%;
+  border-bottom: 1px solid #ccc;
+  text-align: center;
+  background: white;
+  color: black;
+  border-top-left-radius: 14px;
+  border-bottom-left-radius: 14px;
+  overflow: hidden;
+  transform: scale(0.9);
+  transition: background 0.7s ease,  transform 0.7s ease;
+}
+.view_button_admin {
+  position: relative;
+  font-size: 20px;
+  height: 80px;
+  width: 48%;
+  border-bottom: 1px solid #ccc;
+  text-align: center;
+  background: white;
+  color: black;
+  border-top-right-radius: 14px;
+  border-bottom-right-radius: 14px;
+  overflow: hidden;
+  transform: scale(0.9);
+  transition: background 0.7s ease,  transform 0.7s ease;
+}
+
+.view_button_admin:hover {
+  background: #4facff;
+  color: white;
+  transform:scale(1);
+}
+
+.delete_button_admin:hover {
+  background: crimson;
+  color: white;
+  transform:scale(1);
+}
+
+.viewcontainer{
+  background-color: #ec9b3b;
+  width: 150px;
+  height: 150px;
+}
